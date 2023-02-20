@@ -32,8 +32,25 @@ h1, h2 {
     float: right;
 }
 
+#menue, #logo {
+    line-height: 75px;
+}
+
 #menue li {
     float: left;
     list-style: none;
     margin-right: 30px;
+}
+
+#menue a {
+    text-decoration: none;
+    color:inherit;
+}
+
+#menue a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
